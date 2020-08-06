@@ -1,15 +1,46 @@
 
+body  {
+  background-color: #efeee7;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 150%;
+}
+header  {
+  background-color: #333333;
+}
 h1 {
-      /* Put a 15-pixel margin at the bottom of the heading. */
-      margin-bottom: 15px;
-      /* Change the size of your font to 60 pixels high. */
-      font-size: 60px;
-      /* This will color the heading font white. */
-      color: white;
-      /* Align the text to the center of its enclosing element (e.g. div). */
-      text-align: center;
-      /* Underline the text. */
-      text-decoration: underline;
-      /* The background of the heading element will now be black. */
-      background-color: black;
-    }   
+  color: #eee;
+  font-size: 28px;
+  margin: 0px;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2  {
+  font-size: 24px;
+}
+
+.container  {
+  width: 1024px;
+  margin: 0 auto;
+
+}
+#main-bio {
+  width: 70%;
+  float: left;
+}
+#contact-info{
+  width: 30%;
+  float: left;
+}
+#bio-img  {
+  width: 200px;
+  margin-right: 20px;
+  float: left;
+}
+a {
+  color: #d21034;
+}
